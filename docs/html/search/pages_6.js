@@ -1,0 +1,5 @@
+var searchData=
+[
+  ['project_20to_20familiarize_20myself_20with_20cmake_20and_20catch2_20tests_0',['A project to familiarize myself with cmake and catch2 tests.',['../index.html',1,'']]],
+  ['public_20license_1',['GNU GENERAL PUBLIC LICENSE',['../df/dd7/md_License.html',1,'']]]
+];

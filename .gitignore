@@ -1,0 +1,7 @@
+build/
+.cache/
+.vscode/
+
+docs/man
+docs/latex
+!docs/latex/refman.pdf
