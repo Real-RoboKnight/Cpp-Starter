@@ -30,7 +30,6 @@
 namespace MathFunctions {
 
 int add(int a, int b) {
-    std::cout << number(a);
     return a + b;
 }
 

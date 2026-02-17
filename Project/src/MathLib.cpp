@@ -30,6 +30,7 @@
 
 int main(int argc, char const* argv[]) {
     float x, y;
+    std::cout << "Enter two numbers:\n";
     std::cin >> x >> y;
     foo bar{ x, y };
     std::cout << std::hex << &bar;
