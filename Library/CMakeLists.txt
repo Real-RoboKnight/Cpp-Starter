@@ -1,8 +1,8 @@
 add_library(Library)
-
-target_sources(Library
+file(GLOB PROG_SOURCES "${CMAKE_CURRENT_SOURCE_DIR}/src/*.cpp")
+target_sources(Prog
   PRIVATE
-    src/MathLib.cpp
+    ${PROG_SOURCES}
 )
 
 target_include_directories(Library

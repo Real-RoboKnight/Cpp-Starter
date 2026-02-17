@@ -27,6 +27,7 @@
 
 #pragma once
 
+template<typename T>
 struct foo {
-    int x, y;
+    T x, y;
 };

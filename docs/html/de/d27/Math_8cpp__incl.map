@@ -1,5 +1,5 @@
-<map id="Tests/Math.cpp" name="Tests/Math.cpp">
-<area shape="rect" id="Node000001" title="These tests verify that addition and multiplication in the math library work as expected." alt="" coords="158,5,277,31"/>
+<map id="Library/tests/Math.cpp" name="Library/tests/Math.cpp">
+<area shape="rect" id="Node000001" title="These tests verify that addition and multiplication in the math library work as expected." alt="" coords="134,5,301,31"/>
 <area shape="rect" id="Node000002" title=" " alt="" coords="5,79,224,104"/>
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="202,33,144,73,141,68,199,28"/>
 <area shape="rect" id="Node000003" href="$d2/de3/MathFunctions_8hpp.html" title="Dummy File." alt="" coords="249,79,394,104"/>
