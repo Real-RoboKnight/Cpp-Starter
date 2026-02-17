@@ -1,13 +1,13 @@
 /**
- * \file MathLib.cpp
+ * \file logger.hpp
  * \author Dylan Shah (code@dylan-shah.com)
- * \brief Dummy File
+ * \brief Some private include file
  * \version 0.1
- * \date 2026-02-13
+ * \date 2026-02-17
  *
  * \copyright Copyright (c) 2026
  *
- * \parblock License
+ * \parblock License:
  *
  *   This program is free software: you can redistribute it and/or modify
  *   it under the terms of the GNU General Public License as published by
@@ -24,20 +24,13 @@
  * \endparblock
  *
  */
-#include <MathFunctions.hpp>
 
-namespace MathFunctions {
+#include <iostream>
 
-int add(int a, int b) {
-    return a + b;
+struct number {
+    int i;
+};
+
+inline std::ostream& operator<<(std::ostream& os, number num) {
+    return os << num.i;
 }
-
-int sub(int a, int b) {
-    return a - b;
-}
-
-int mul(int a, int b) {
-    return a * b;
-}
-
-} // namespace MathFunctions
